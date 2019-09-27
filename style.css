@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700,800&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body {
+
+}
+body,
+	html {
+		margin:0;
+		padding:0;
+		color:#211d1e;
+	    font-weight:300;
+	}
+	*,
+	* * {
+		box-sizing:border-box;
+	}
+
+	a:hover {
+		color:#adc8d5;
+	}
+
+	footer {
+		font-size:14px;
+		padding:13px 20px;
+		color:#fff;
+		position:fixed;
+		bottom:0;
+		left:0;
+		right:0;
+		background:#1d3f69;
+		text-align:center;
+	}
+
+	@media (max-width:599px),(max-height:520px) {
+		footer {
+		clear:both;
+		width:100%;
+		display:block;
+		position:static !important;
+		}
+	}
+
+	a {
+		margin-bottom:-10px;
+		font-size:15px;
+		display:block;
+		font-family:arial;
+		text-decoration:none;
+		color:#1d3f69;
+	}
+
+
+
+	h2 {
+		font-size:1rem;
+	}
+
+		body {
+			font-size:17px;
+			font-family:arial;
+			display:flex;
+			flex-direction:row;
+			align-items:center;
+			background:#fff;
+			min-height:100vh;
+		}
+
+		@media (max-width:599px),(max-height:520px)  {
+			body {
+				flex-direction:column;
+			}
+		}
+
+		h1 {
+			font-size:1.5em;
+		}
+
+		img {
+			display:block;
+			width:100%;
+			clear:both;
+		}
+
+		img + span {
+			margin-top:1.5em;
+			clear:both;
+			display:inline-block;
+			height:4px;
+			width:20px;
+			background:#ef483f;
+		}
+
+		h1,h2,h3,h4,h5,h6 {
+			font-family:'Open Sans';
+			text-transform:uppercase;
+			letter-spacing:.02em;
+	
+			color:#ef483f;
+		}
+
+		main {
+		padding:60px 20px;
+			text-align:center;
+			margin:0 auto;
+			display:block;
+			max-width:800px;
+		}
